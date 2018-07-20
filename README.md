@@ -36,6 +36,8 @@ class Foo extends React.Component {
     })
   }
 }
+
+export default withThenableSetState(Foo)
 ```
 
 ## License
