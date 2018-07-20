@@ -12,4 +12,4 @@ const withThenableSetState = (Comp) =>
     }
   }
 
-module.exports = withThenableSetState
+export default withThenableSetState

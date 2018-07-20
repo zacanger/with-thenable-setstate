@@ -43,6 +43,8 @@ class Foo extends React.Component {
 export default withThenableSetState(Foo)
 ```
 
+`require('with-thenable-setstate')` also works.
+
 ## License
 
 [MIT](./LICENSE.md)
