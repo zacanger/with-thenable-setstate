@@ -8,12 +8,14 @@
     "url": "http://zacanger.com"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib.js",
   "files": [
-    "index.js"
+    "lib.js"
   ],
   "scripts": {
-    "preversion": "npm t",
+    "build": "babel index.js --out-file lib.js",
+    "prebuild": "npm t",
+    "preversion": "npm run build",
     "test": "run-s -s test:lint test:tape",
     "test:lint": "eslint -c .eslintrc.json index.js index.test.js",
     "test:tape": "babel-tape-runner index.test.js | tap-spec"
@@ -34,6 +36,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel": "6.23.0",
+    "babel-cli": "6.26.0",
     "babel-eslint": "8.2.6",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
