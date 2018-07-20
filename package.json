@@ -1,6 +1,6 @@
 {
   "name": "with-thenable-setstate",
-  "description": "with-thenable-setstate",
+  "description": "HOC to add a thenable setState to your React components.",
   "version": "0.0.1",
   "author": {
     "name": "Zac Anger",
@@ -10,8 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": ""
+    "test": "echo 'no tests sry'"
   },
   "homepage": "https://github.com/zacanger/with-thenable-setstate#readme",
   "repository": {
@@ -20,8 +19,11 @@
   },
   "bugs": "https://github.com/zacanger/with-thenable-setstate/issues",
   "keywords": [
-    "",
-    "with-thenable-setstate"
+    "setstate",
+    "with-thenable-setstate",
+    "promise",
+    "react",
+    "hoc"
   ],
   "dependencies": {},
   "devDependencies": {},
