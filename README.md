@@ -16,6 +16,8 @@ might change (if I can think of anything less verbose).
 ```javascript
 import * as React from 'react'
 import withThenableSetState from 'with-thenable-setstate'
+// `require` also works:
+// const withThenableSetState = require('with-thenable-setstate')
 
 class Foo extends React.Component {
   state = { a: 0 }
@@ -24,26 +26,24 @@ class Foo extends React.Component {
   async something () {
     try {
       await this.thenableSetState({ a: 1 })
+      await doSomethingElseNow()
     } catch (e) {
-
+      // handle e
     }
   }
 
   // promise syntax example
   somethingElse () {
     this.thenableSetState({ a: 2 })
-    .then(() => {
-    })
-    .catch((e) => {
-
-    })
+      .then(doSomethingElseNow)
+      .catch((e) => {
+        // handle e
+      })
   }
 }
 
 export default withThenableSetState(Foo)
 ```
-
-`require('with-thenable-setstate')` also works.
 
 ## License
 
