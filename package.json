@@ -9,6 +9,9 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "preversion": "npm t",
     "test": "run-s -s test:lint test:tape",
