@@ -2,6 +2,9 @@
 
 HOC to add a thenable setState to your React components.
 
+**NOTE:** this is under develepment, and the `this.thenableSetState` method name
+might change (if I can think of anything less verbose).
+
 --------
 
 ## Installation
