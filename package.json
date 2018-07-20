@@ -10,6 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "preversion": "npm t",
     "test": "run-s -s test:lint test:tape",
     "test:lint": "eslint -c .eslintrc.json index.js index.test.js",
     "test:tape": "babel-tape-runner index.test.js | tap-spec"
