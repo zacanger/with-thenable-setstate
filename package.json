@@ -1,7 +1,7 @@
 {
   "name": "with-thenable-setstate",
   "description": "HOC to add a thenable setState to your React components.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
