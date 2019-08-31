@@ -47,4 +47,4 @@ export default withThenableSetState(Foo)
 
 ## License
 
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
