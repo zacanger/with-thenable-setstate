@@ -12,11 +12,13 @@ tape.test('withThenableSetState', (t) => {
       super(props)
       this.state = { a: 0 }
     }
+
     thing () {
       this.thenableSetState(({ a: 1 }))
         .then(() => {})
         .catch(() => {})
     }
+
     render () {
       return <span />
     }
