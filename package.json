@@ -56,5 +56,10 @@
   },
   "peerDependencies": {
     "react": "^16.0.0"
+  },
+  "funding": {
+    "type": "ko-fi",
+    "url": "https://ko-fi.com/zacanger"
   }
+
 }
