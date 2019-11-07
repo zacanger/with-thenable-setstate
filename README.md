@@ -2,8 +2,7 @@
 
 HOC to add a thenable setState to your React components.
 
-**NOTE:** this is under develepment, and the `this.thenableSetState` method name
-might change (if I can think of anything less verbose).
+[![Support with PayPal](https://img.shields.io/badge/paypal-donate-yellow.png)](https://paypal.me/zacanger) [![Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/zacanger) [![ko-fi](https://img.shields.io/badge/donate-KoFi-yellow.svg)](https://ko-fi.com/U7U2110VB)
 
 --------
 
