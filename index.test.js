@@ -8,18 +8,18 @@ enzyme.configure({ adapter: new Adapter() })
 
 tape.test('withThenableSetState', (t) => {
   class Foo extends React.Component {
-    constructor (props) {
+    constructor(props) {
       super(props)
       this.state = { a: 0 }
     }
 
-    thing () {
-      this.thenableSetState(({ a: 1 }))
+    thing() {
+      this.thenableSetState({ a: 1 })
         .then(() => {})
         .catch(() => {})
     }
 
-    render () {
+    render() {
       return <span />
     }
   }
